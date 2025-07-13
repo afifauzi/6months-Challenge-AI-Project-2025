@@ -1,6 +1,7 @@
-# Project: End-to-end classification pipeline
-1. Goal: Build reproducible ML pipelines
-2. Key Tech: Docker, MLflow, Prefect, DVC
+# MLOps Foundations & Pipeline Automation
+1. Project: End-to-end classification pipeline
+2. Goal: Build reproducible ML pipelines
+3. Key Tech: Docker, MLflow, Prefect, DVC
 4. Dataset: CIFAR-100
 5. Steps:
 - Containerize training with Docker
