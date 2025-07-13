@@ -12,11 +12,11 @@ ________________________________________
 # Monthly Roadmap (July 2025 – December 2025)
 
 ## Month 1: MLOps Foundations & Pipeline Automation
-•	Goal: Build reproducible ML pipelines
-•	Key Tech: Docker, MLflow, Prefect, DVC
-•	Project: End-to-end classification pipeline
-o	Dataset: CIFAR-100
-o	Steps:
+-	Goal: Build reproducible ML pipelines
+-	Key Tech: Docker, MLflow, Prefect, DVC
+-	Project: End-to-end classification pipeline
+-	Dataset: CIFAR-100
+-	Steps:
 1.	Containerize training with Docker
 2.	Version data/models with DVC
 3.	Track experiments with MLflow
@@ -24,11 +24,11 @@ o	Steps:
 •	Outcome: Automated pipeline from data ingestion to model registry
 
 ## Month 2: Advanced Computer Vision
-•	Goal: Master modern CV architectures
-•	Key Tech: PyTorch Lightning, ONNX, TensorRT
-•	Project: Real-time object detection system
-o	Dataset: COCO
-o	Steps:
+-	Goal: Master modern CV architectures
+-	Key Tech: PyTorch Lightning, ONNX, TensorRT
+-	Project: Real-time object detection system
+-	Dataset: COCO
+-	Steps:
 1.	Train YOLOv12 with custom augmentations
 2.	Optimize with TensorRT for 2x+ inference speed
 3.	Quantize model (FP16/INT8)
@@ -36,43 +36,43 @@ o	Steps:
 •	Advanced: Implement video analytics with ByteTrack
 
 ## Month 3: NLP & Transformers
-•	Goal: Industrial NLP applications
-•	Key Tech: Hugging Face, FlashAttention, ONNX Runtime
-•	Project: Low-latency text classification API
-o	Dataset: IMDB + custom domain data
-o	Steps:
+-	Goal: Industrial NLP applications
+-	Key Tech: Hugging Face, FlashAttention, ONNX Runtime
+-	Project: Low-latency text classification API
+-	Dataset: IMDB + custom domain data
+-	Steps:
 1.	Fine-tune DistilBERT with quantization-aware training
 2.	Optimize with ONNX Runtime
 3.	Build caching system for <50ms inference
 4.	Implement GradCAM explainability
    
 ## Month 4: Generative AI & Diffusion Models
-•	Goal: Practical generative systems
-•	Key Tech: LoRA, Dreambooth, Stable Diffusion
-•	Project: Custom image generation pipeline
-o	Dataset: Your own curated image set
-o	Steps:
+-	Goal: Practical generative systems
+-	Key Tech: LoRA, Dreambooth, Stable Diffusion
+-	Project: Custom image generation pipeline
+-	Dataset: Your own curated image set
+-	Steps:
 1.	Fine-tune SDXL with LoRA on RTX 4070
 2.	Implement prompt engineering techniques
 3.	Build Gradio UI with safety filters
 4.	Optimize for 512px gen in <5s
    
 ## Month 5: LLMs & Efficient Fine-Tuning
-•	Goal: Cost-effective LLM customization
-•	Key Tech: QLoRA, vLLM, GGUF
-•	Project: Domain-specific LLM assistant
-o	Model: Mistral-7B or Llama 3
-o	Steps:
+-	Goal: Cost-effective LLM customization
+-	Key Tech: QLoRA, vLLM, GGUF
+-	Project: Domain-specific LLM assistant
+-	Model: Mistral-7B or Llama 3
+-	Steps:
 1.	QLoRA fine-tuning on single GPU
 2.	Convert to GGML/GGUF format
 3.	Deploy with vLLM for high-throughput
 4.	Implement RAG with FAISS
    
 ## Month 6: Capstone Project - Full Production System
-•	Goal: Integrate all skills into portfolio piece
-•	Project: Cloud-native AI service
-o	Example: Automated report generator (CV + NLP)
-o	Components:
+-	Goal: Integrate all skills into portfolio piece
+-	Project: Cloud-native AI service
+-	Example: Automated report generator (CV + NLP)
+-	Components:
 1.	Vision: Table/Chart extraction from PDFs (Donut model)
 2.	NLP: Summarization with fine-tuned Mistral
 3.	MLOps: CI/CD with GitHub Actions
@@ -81,19 +81,19 @@ o	Components:
 ________________________________________
 
 ## Key Optimization Techniques (Leverage Your RTX 4070 Super)
-•	Quantization: GPTQ/AWQ for LLMs, FP16 for CV
-•	Compilation: TorchInductor, TensorRT
-•	Pruning: Movement pruning for BERT-family
-•	Distillation: Distill ViT to CNN
-•	Flash Attention: For transformers
+-	Quantization: GPTQ/AWQ for LLMs, FP16 for CV
+-	Compilation: TorchInductor, TensorRT
+-	Pruning: Movement pruning for BERT-family
+-	Distillation: Distill ViT to CNN
+-	Flash Attention: For transformers
 
 ## Learning Resources
-•	Books: "Deep Learning with PyTorch" (Eli Stevens)
-•	Courses: Full Stack LLM Bootcamp (TheBloke.ai)
-•	Tools:
-o	Ollama (local LLMs)
-o	Text Generation WebUI
-o	OpenVINO (Intel optimization)
+-	Books: "Deep Learning with PyTorch" (Eli Stevens)
+-	Courses: Full Stack LLM Bootcamp (TheBloke.ai)
+-	Tools:
+   1.	Ollama (local LLMs)
+   2.	Text Generation WebUI
+   3.	OpenVINO (Intel optimization)
 
 ## Industry Relevance Focus
 1.	Deployment Patterns: Serverless, edge, hybrid
